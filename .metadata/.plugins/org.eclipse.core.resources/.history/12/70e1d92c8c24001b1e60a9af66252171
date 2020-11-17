@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>06_SimpleForm.html</title>
+</head>
+<body>
+
+<!-- method : 전송방식 
+		-get (default) : header 부분에 데이터 전송 (보내는 값을 URL에 표기)
+		-post : body 부분에서 데이터를 전송 (보내는 값이 표기되지 않음)	
+				(1) 보안이 필요한 데이터
+				(2) 파일 전송
+		-->
+
+<!-- jsp : web에서 구동하는 java
+	action ='xxx.jsp' : xxx.jsp 파일로 값을 보낸다
+ -->
+
+<form action="xxx.jsp" method='get'>
+	<fieldset>
+	<legend>회원가입</legend>
+		<ol>
+		<li>
+		<label for ='name'>이름</label>
+		<input type ='text' id= 'name' name='name'/></li>
+		<li>
+		<label for ='nick'>별명</label> 
+		<input type ='text' id= 'nick' name ='nick'/></li>
+		<li><input type ='submit' value='확인'/>
+			<input type ='reset' value='취소'/>
+		</li>
+		<li>
+		<label
+		<input type = 'radio' id = '남자' name='성별' value='남자'>		</li>
+		
+			
+			</ol>
+	</fieldset> 
+</form>
+
+	
+
+</body>
+</html>

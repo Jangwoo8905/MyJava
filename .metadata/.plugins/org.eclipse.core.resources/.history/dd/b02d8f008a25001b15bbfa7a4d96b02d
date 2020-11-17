@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+legend{
+font-weight:bold;
+font-family: 고딕;
+}
+
+label{
+font-family: 돋움;
+
+
+}
+
+input:hover{
+border:2px solid lightblue;
+}
+input:focus{
+border:2px solid blue;
+}
+
+</style>
+
+</head>
+<body>
+
+<form>
+	<fieldset>
+	<legend>로그인 정보</legend>
+		<ol>
+			<li>
+				<label for ='identy'>아이디</label>
+				<input type='text' id ='identy' name='identy'>
+			</li>
+			
+			<li>
+				<label for ='pass'>비밀번호</label>
+				<input type ='password' id ='pass' name ='pass'>	
+			</li>
+			
+			<li>
+				<label for ='passcom'>비밀번호 확인</label>
+				<input type ='password' id ='passcom' name ='passcom'>	
+			</li>
+			
+			
+			<li>
+				<label for ='grade'>회원 등급</label>
+				<input type ='text' id ='grade' name ='grade' value="준회원" >	
+			</li>
+		
+		</ol>
+	</fieldset>
+	
+	<fieldset>	
+	<legend>개인 정보</legend>
+		<ol>
+			<li>
+				<label for ='name'>이름</label>
+				<input type='text' id ='name' name='name' placeholder ='5자미만 공백없이'>
+			</li>
+			
+			<li>
+				<label for ='mail'>메일 주소</label>
+				<input type ='mail' id ='mail' name ='mail' placeholder='abcd@domain.com'>	
+			</li>
+			
+			<li>
+				<label for ='tel'>연락처</label>
+				<input type ='tel' id ='tel' name ='tel'>	
+			</li>
+			
+			<li>
+				<label for ='birth'>생일</label>
+				<input type ='date' id ='birth' name ='birth'>	
+			</li>
+		
+		</ol>
+		
+		
+	</fieldset>	
+	
+	<fieldset>
+	<legend>코딩 숙련도(상,중,하)</legend>
+		<ol>
+			<li><input type="range"></li>
+		
+		</ol>
+
+	
+	
+	
+	</fieldset>
+	
+	<fieldset>
+	<ul  style='list-style-type:none;'>
+			<li>
+			<input type='submit' value ='제출'>
+			</li>
+	</ul>
+	</fieldset>
+	
+
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>03_for연습.html</title>
+
+<script type="text/javascript">
+document.write("<table border='2'>")
+
+
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

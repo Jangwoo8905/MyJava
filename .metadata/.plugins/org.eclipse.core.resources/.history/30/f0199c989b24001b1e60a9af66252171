@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 연습</title>
+
+<link type ='text/css' rel ='stylesheet' href ='css/temp.css'>
+
+
+<!-- 16 진수 : 0~9 ,A,B,C,D,E,F -->
+<style type="text/css">
+
+/* 가중치 이용하기 */
+div#point100{color : blue;} /*가중치를 더하여 값을 높히는 방법 css 파일을 건들지 않고 수정이 가능하다*/
+body div#point100{color : yellow;}
+#point100{color : green;}
+.point10{color : cyan;} /*class가 element 보다 가중치가 높으므로 코드를 앞선에 입력해도 class로 입력한 값을 지정 */
+
+/* 속성으로 찾기 */
+
+
+/* 요소(태그)로 찾기*/
+div{ color : red;}
+div{ color : #FF33BB;} /* RGB(red, green, blue)  순서대로 16진수로 2개씩 값을 입력*/
+div{ color : #F3B;}
+div{ color : #000000;} /* 빛의 3원소 000000 black*/
+
+/* 클래스명으로 찾기*/
+.point10{color : cyan;}
+
+/* 아이디로 찾기*/
+#point100{color : purple;}
+
+
+</style>
+
+</head>
+<body>
+	
+	<div id="point100" class="point10">안녕하세요</div>
+	
+	
+	<p>
+		<input type="text" value="입력1">
+		<input type="checkbox"> 선택
+		<input type="radio" name="rd"  checked="checked"> 예
+		<input type="radio" name="rd"> 아니오
+		<input type="text" value="입력2" disabled="disabled">		
+		<input type="button" value="확인">
+		<input type="button" value="취소">
+	</p>
+	
+	
+</body>
+</html>

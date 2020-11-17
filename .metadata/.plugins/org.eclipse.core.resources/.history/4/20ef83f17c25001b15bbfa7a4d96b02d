@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>z-index 프로퍼티</title>
+<style type="text/css">
+img{position:fixed;}
+#spadeA{
+z-index:4; /*z-index 큰값이 위로 온다*/
+left:10px; top:120px;
+}
+
+#spade2{
+z-index:30;
+left:40px; top:140px;
+}
+
+#spade3{
+z-index:2;
+left:80px; top:160px;
+}
+#spade7{
+z-index:1;
+left:120px; top:180px;
+}
+
+
+
+</style>
+
+</head>
+<body>
+<h3>z-index 프로퍼티</h3>
+<hr>
+<div>
+	<img id="spadeA" src="img/spade-A.png" 
+		width="100" height="140" alt="스페이드A">
+	<img id="spade2" src="img/spade-2.png" 
+		width="100" height="140" alt="스페이드2">
+	<img id="spade3" src="img/spade-3.png" 
+		width="100" height="140" alt="스페이드3">
+	<img id="spade7" src="img/spade-7.png" 
+		width="100" height="140" alt="스페이드7">
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
+
+하이
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>자바스크립트의 자료형</title>
+<script type="text/javascript">
+
+/*
+ * 자바 : 컴파일 언어(.java >> 컴파일 후 >> .class) 컴파일 성공후에 .class 파일을 실행
+ * 자바스크립트, 파이썬 : 인터프리터 언어 / 한줄을 번 역후 실행 후 다음줄 번역
+ */
+
+/* 1. 자바스크립트는 데이터타입에 관대하다
+     변수를 선언할 때 데이타타입을 정하지 않는다
+		(1) 변수 선언 : var
+*/
+//자바인 경우 : String byensu ="문자열";
+var byensu = "문자열";
+document.writeln("변수의 값:"+ byensu+"<br/>");
+document.writeln("변수의 타입:"+ (typeof byensu)+"<br/>");
+console.log("변수의 값:"+byensu);
+
+byensu =100;
+document.writeln("변수의 값:"+ byensu+"<br/>");
+document.writeln("변수의 타입:"+ (typeof byensu)+"<br/>");
+
+
+/*   (2) let  (es6)
+ 		- 변수의 중복을 허용하지 않는다
+ 		- 블럭 범위(scope)를 인식한다 -> 나중에 확인
+ */
+
+ let msg = "기존";
+ msg = "변경";
+ document.writeln("변수의 값:"+msg+"<br/>")
+ 
+ var byenu = "새로운 값";
+ document.writeln("2.변수의 값:"+byensu+"<br/>");
+ 
+ let msg2 ="새로운 값";
+ document.writeln("2.변수의 값:"+mgs+"<br/>");
+ //let 중복 에러가 발생하면 전체다 실행되지 않음
+ 
+
+ /* (3) const : 상수선언 (es6)
+	- 값을 재대입 금지
+	- 명명 권장 : 모두 대문자에 단어사이는 _로 표시
+*/
+
+ 
+ 
+//----------------------------------------------------------------
+// 2. 리터럴 - 변수의 값
+var   arr = [ '안녕', 'Hello', 'Hola', '곤니찌와' ];
+
+ 		
+var   arr2 = [ '안녕', [ 'Hello', 'Hola' ], '곤니찌와' ];
+
+
+var  obj = { x : '안녕',  y : 'Hello' ,  z : '곤니찌와' };
+
+
+
+//-------------------------------------------------------
+/* 3. 분할 대입 (destructuring assignment) : (es6)
+ 			- 배열과 객체의 요소를 분할하는 부분
+ 		(1) 배열 분할
+ */
+ /* var data = [10, 20, 30, 40, 50];
+ var a0 = data[0];
+ var a1 = data[1];
+ var a2 = data[2];
+ document.writeln(a0+ a1+ a2 + "<br/>");  
+ console.log(a0, a1, a2 )*/
+ 
+ 
+ 
+ /*  (2) 객체 분할
+  */
+ 
+</script>
+</head>
+<body>
+
+</body>
+</html>

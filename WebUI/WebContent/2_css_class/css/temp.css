@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#point100{color : green;}
+
+.point10{color : cyan;} /*class가 element 보다 가중치가 높으므로 코드를 앞선에 입력해도 class로 입력한 값을 지정 */
+
+/* 요소(태그)로 찾기*/
+div{ color : red;}
+div{ color : #FF33BB;} /* RGB(red, green, blue)  순서대로 16진수로 2개씩 값을 입력*/
+div{ color : #F3B;}
+div{ color : #000000;} /* 빛의 3원소 000000 black*/
+
+/* 클래스명으로 찾기*/
+.point10{color : cyan;}
+
+/* 아이디로 찾기*/
+#point100{color : red;}
+
