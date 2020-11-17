@@ -5,29 +5,46 @@
 <title>03_for연습.html</title>
 
 <script type="text/javascript">
+var date=1;
+var d = new Date();
+var temp =0;
+var darr=[];
+
+var mon = 11;
+//그달의 일수 구하기
+
+d.setMonth(mon);
+d.setDate(0);
+document.write(d);
+;
+
+for(var i=0; i<d.getDate(0);i++){
+	darr.push(date++);
+}
+	
+
+document.write(mon+"월<br/>")
+
 document.write("<table border='2'>");
+document.write("<tr>");
+document.write("<td>일</td>");
+document.write("<td>월</td>");
+document.write("<td>화</td>");
+document.write("<td>수</td>");
+document.write("<td>목</td>");
+document.write("<td>금</td>");
+document.write("<td>토</td>");
 
-
-
+document.write("</tr>");
 for(var j=0;j<5;j++){
 	document.write("<tr>");
-	for(var i =1+5*j;i<6+5*j ;i++){
-		document.write("<td>"+i+"</td>");
-	}
+	for(var i =0;i<7 ;i++){
+		document.write("<td>"+darr[temp]+"</td>");
+		temp++;
+	
+}
 	document.write("</tr>");
 }
-
-
-for(var j=0;j<5;j++){
-	document.write("<tr>");
-	for(var i =0;i<5 ;i++){
-		document.write("<td></td>");
-	}
-	document.write("</tr>");
-}
-
-
-
 document.write("</table>")
 
 
