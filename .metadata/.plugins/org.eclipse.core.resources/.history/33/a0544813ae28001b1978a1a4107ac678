@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>03_for연습.html</title>
+
+<script type="text/javascript">
+var date=1;
+var d = new Date();
+var temp =0;
+var Darr=[];
+document.write(d.getMonth()+1+"월<br/>");
+
+//그달의 일수 구하기
+var d_date = d.setMonth()+1;
+var d_date = d.setDate(0);
+for(var i=0; i<d_date.getDate(0);i++){
+	Darr.push(date++);
+	
+}
+	
+
+
+
+
+
+
+document.write("</table>")
+
+
+
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

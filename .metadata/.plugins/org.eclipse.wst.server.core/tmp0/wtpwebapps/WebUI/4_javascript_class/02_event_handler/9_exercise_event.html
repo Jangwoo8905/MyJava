@@ -12,10 +12,11 @@
 </head>
 <body>
 	<form name="frm">
-		<input type="button" value="스타일 A" onclick="JavaScript:changeColor('A')">
+		<input type="button" value="스타일 A" onclick="JavaScript:changeColor('A')"> <!-- 1번 방식을 할때 함수를 빨리 찾기위해 JavaScript:를 선언하여 찾기 쉽게 하였다 -->
 		<input type="button" value="스타일 B" onclick="JavaScript:changeColor('B')">
 		<input type="button" value="스타일 C" onclick="JavaScript:changeColor('C')">
 	</form>
+	글씨색이 변할까?
 	<ul>
 		<li><a href="http://www.cnn.com"> 여기는 미쿡 </a></li>
 		<li><a href="http://news.bbc.co.uk"> 여기는 영쿡 </a></li>
@@ -27,12 +28,24 @@
 			물론, 지금은 그럴 필요가 없지만 < body > 태그 안에 넣어봤음.
 	 -->
 	<script type="text/javascript">
-		function changeColor( colorVar )   // 함수 인자에 var도 쓰면 안됨
+		function changeColor( colorVar )   // 함수 인자에는  var 쓰면 안됨
+		
 		{
 			
 			// alert("넘겨받은 인자값 : " + colorVar);
 			// colorVar로 넘겨받은 값에 의해 분기하고자 switch~case 문 이용이 바람직
-
+			switch(colorVar){
+			case 'A':document.bgColor ='#aaaaaa';
+					 document.fgColor ='red';
+					 break;
+			 case 'B':document.bgColor ='#bbbbbb';
+			 document.fgColor ='blue';
+			 break
+			 
+			 case 'C':document.bgColor ='#cccccc';
+			 document.fgColor ='Green';
+			 break
+			}
 			
 		}
 	</script>

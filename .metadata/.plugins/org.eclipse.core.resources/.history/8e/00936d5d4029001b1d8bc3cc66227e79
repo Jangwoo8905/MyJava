@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Map / Set 내장 객체 </title>
+<script type="text/javascript">
+
+// 1. Map : 키와 값으로 관리하는 객체
+let m = new Map();
+m.set('java','1111');
+m.set('script','2222');
+m.set('nodejs', '2222');
+m.set('java','3333');
+
+// for(let key of m.keys()){
+// 	document.write(key+"<br/>"); //key는 중복되면 안되므로 3개만 나옴
+// }
+
+// for(let values of m.values()){
+// 	document.write(values+"<br/>"); //java의 value가 3333이 나온다 나중에 입력된 값으로 갱신된다
+// }
+
+// for(let [key,value] of m.entries()){
+// 	document.write(key+":"+value+"<br/>");
+// }
+// document.write("<hr/>")
+// for(let [key,value] of m){
+// 	document.write(key+":"+value+"<br/>");
+// }
+
+function test(){
+	var txtId=document.getElementById('id').value;
+	var txtPw = document.getElementById('pass').value;
+	//받아온 값을 map에 저장된 값과 비교
+	//로그인 성공 여부를 alert 으로 출력
+
+
+   var pass =m.get(txtId);
+   if(pass!=null){
+       if(pass==txtPw){
+           alert("로그인 성공");
+       }else alert("비밀번호 틀림")
+   }else alert("없는 아이디")
+
+	
+	
+}
+
+
+/* [참고] Map과 객체 리터럴의 차이 
+ 	1) 객체 리터럴은 문자열로 프라퍼티명을 지정하지만, Map의 키는 임의의 형으로 설정한다
+ 		 객체뿐만 아니라 NaN도 키가 될 수 있다
+ 	2) Map은 size를 통해 요소의 갯수를 파악한다
+ */
+
+ 
+ 
+ 
+ 
+//-------------------------------------------------------
+// 2. Set  : 중복 값을 허용하지 않는 집합 관리 객체
+let s = new Set();
+s.add('tiger');
+s.add('dog');
+s.add('lion');
+s.add('dog');
+
+for(var v of s){
+	document.write(v+"<br/>");
+}
+
+//Set 객체를 이용하여 로또 6개 출력
+let rotto = new Set();
+
+
+while(rotto.size<7) {
+    rotto.add((Math.random() * 45) + 1)
+}
+
+for(var v of rotto){
+    document.write(v+" ");
+}
+
+</script>
+</head>
+<body>
+
+<!-- 아이디 : <input type='text' id='id'><br/> -->
+<!-- 패스워드 : <input type='password' id='pass'><br/> -->
+<!-- <input type='button' value ='전송' onclick='test()'> -->
+
+
+<!-- 서버로 전송하려면 반드시 form 안에 구현 -->
+
+
+
+</body>
+</html>

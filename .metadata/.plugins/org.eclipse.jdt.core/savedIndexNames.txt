@@ -1,5 +1,4 @@
 INDEX VERSION 1.131+C:\webwork\.metadata\.plugins\org.eclipse.jdt.core
-1204801488.index
 600018902.index
 1543834988.index
 2881490796.index

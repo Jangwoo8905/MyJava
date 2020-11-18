@@ -12,9 +12,64 @@ m.set('script','2222');
 m.set('nodejs', '2222');
 m.set('java','3333');
 
+for(let key of m.keys()){
+	document.write(key+"<br/>");
+}
+
+document.write("<hr/>")
+m.set(1,'1111');
+
+for(let key of m.keys()){
+	document.write(key+"<br/>");
+}
+
+var key={'temp':'00000'};
+m.set(key,'홍길동');
 
 
+document.write("<hr/>")
 
+for(let key of m.keys()){
+	document.write(key+"<br/>");
+}
+
+document.write(key+":"+m.get(key)+"<br/>")
+
+document.write({'temp':'00000'}+":"+m.get({'temp':'00000'})+"<br/>")
+
+// for(let key of m.keys()){
+// 	document.write(key+"<br/>"); //key는 중복되면 안되므로 3개만 나옴
+// }
+
+// for(let values of m.values()){
+// 	document.write(values+"<br/>"); //java의 value가 3333이 나온다 나중에 입력된 값으로 갱신된다
+// }
+
+// for(let [key,value] of m.entries()){
+// 	document.write(key+":"+value+"<br/>");
+// }
+// document.write("<hr/>")
+// for(let [key,value] of m){
+// 	document.write(key+":"+value+"<br/>");
+// }
+
+function test(){
+	var txtId=document.getElementById('id').value;
+	var txtPw = document.getElementById('pass').value;
+	//받아온 값을 map에 저장된 값과 비교
+	//로그인 성공 여부를 alert 으로 출력
+
+
+   var pass =m.get(txtId);
+   if(pass!=null){
+       if(pass==txtPw){
+           alert("로그인 성공");
+       }else alert("비밀번호 틀림")
+   }else alert("없는 아이디")
+
+	
+	
+}
 
 
 /* [참고] Map과 객체 리터럴의 차이 
@@ -35,10 +90,39 @@ s.add('dog');
 s.add('lion');
 s.add('dog');
 
+// for(var v of s){
+// 	document.write(v+"<br/>");
+// }
 
+//Set 객체를 이용하여 로또 6개 출력
+
+
+// for(var i=0; i<5; i++){
+	
+// let rotto = new Set();	
+
+// while(rotto.size<6) {
+//     rotto.add(Math.ceil(Math.random() * 45) + 1);
+// }
+
+// for(var v of rotto){
+//     document.write(v+" ");
+// }
+
+// document.write("<br/>");
+// }
 </script>
 </head>
 <body>
+
+<!-- 아이디 : <input type='text' id='id'><br/> -->
+<!-- 패스워드 : <input type='password' id='pass'><br/> -->
+<!-- <input type='button' value ='전송' onclick='test()'> -->
+
+
+<!-- 서버로 전송하려면 반드시 form 안에 구현 -->
+
+
 
 </body>
 </html>

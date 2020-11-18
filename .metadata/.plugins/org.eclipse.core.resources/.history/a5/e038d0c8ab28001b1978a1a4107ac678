@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>03_for연습.html</title>
+
+<script type="text/javascript">
+var date=1;
+var d = new Date();
+
+document.write(d.getMonth()+1+"월<br/>");
+
+document.write("<table border='2'>");
+
+for(var j=0;j<5;j++){
+	document.write("<tr>");
+	for(var i =0;i<7 ;i++){
+		document.write("<td>"+ date +"</td>");
+		date++;
+	}
+	document.write("</tr>");
+}
+
+
+
+document.write("</table>")
+
+
+
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

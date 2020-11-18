@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 핸들러 연결 </title>
+<script type="text/javascript">
+
+window.onload=function (){
+	document.getElementById('btn')onclick = function()  {
+		alert("이벤트발생3");
+	}} 
+
+// window.onload=function (){
+// 	var btn = document.getElementById('btn'); 
+// 	btn.onclick = function()  {
+// 		alert("이벤트발생3");
+// 	}
+// 	} //이벤트 뒤에 ()를 쓰지 않는다. 당장 호출하는게 아니라 연결만 해둔다
+
+	
+	
+	
+	
+// function init(){
+// var btn = document.getElementById('btn'); //btn을 먼저 찾도록 기술했지만 아직 btn이 선언되지 않았으므로 정상적으로 실행되지 않는다
+// btn.onclick = btn_event;
+
+// function btn_event(){
+// 	alert("이벤트발생");
+// }
+// }
+
+// function init(){
+// var btn = document.getElementById('btn'); 
+// btn.onclick = function() {
+// 	alert("이벤트발생2");
+// }
+// }
+
+
+
+</script>
+
+  </head>
+ <body>
+	<input type='button' value='눌러'  id='btn' />
+ </body>
+</html>

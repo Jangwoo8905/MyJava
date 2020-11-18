@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 핸들러 연결 </title>
+<script type="text/javascript">
+
+
+function init(){
+var btn = document.getElementById('btn'); //btn을 먼저 찾도록 기술했지만 아직 btn이 선언되지 않았으므로 정상적으로 실행되지 않는다
+btn.onclick = btn_event;
+
+function btn_event(){
+	alert("이벤트발생");
+}
+}
+
+</script>
+
+  </head>
+ <body>
+	<input type='button' value='눌러'  id='btn' />
+ </body>
+</html>

@@ -8,11 +8,16 @@
 		document.getElementById('btn').onclick = function(){
 			 var s = document.getElementById('startDate').value;
 			 var e = document.getElementById('endDate').value;
+			 alert(s);
+			 alert(e);
 			 
 			 var sDate = new Date(s);
 			 var eDate = new Date(e);
-
-	
+			 var diff=eDate-sDate;
+				
+			 alert(diff);
+			 var day=diff/(1000*60*60*24);
+			 alert(day);
 		}
 	}
 </script>

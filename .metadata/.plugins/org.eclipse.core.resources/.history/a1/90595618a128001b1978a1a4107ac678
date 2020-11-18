@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Number 형과 형변환 </title>
+<script type="text/javascript">
+
+
+// 1. 숫자 형식 메소드 
+// var su = 123.456789;
+// document.writeln( su.toExponential(4)  + "<br/>" );	//지수형으로 표현 e+2 = 10^2
+// document.writeln( su.toFixed(3)  + "<br/>" );		//반올림 처리
+// document.writeln( su.toFixed(7) + "<br/>" );	
+// document.writeln( su.toPrecision(6)  + "<br/>" );	 
+// document.writeln( su.toPrecision(10)  + "<br/>" );	
+
+//-------------------------------------------------
+// 2. 형변환
+var n ='0770';
+document.writeln(typeof n+"<br/>");
+document.writeln(Number(n)+"<br/>");
+document.writeln(parseInt(n)+"<br/>");
+document.writeln(parseFloat(n)+"<br/>"); //js는 Float를 기본형으로 한다
+document.writeln(typeof parseInt(n)+"<br/>");
+document.writeln("<hr/>");
+
+var n ='abc0770';
+document.writeln(typeof n+"<br/>");
+document.writeln(Number(n)+"<br/>");
+document.writeln(parseInt(n)+"<br/>");
+document.writeln("<hr/>");
+
+var n ='0770abc';
+document.writeln(typeof n+"<br/>");
+document.writeln(Number(n)+"<br/>"); //NaN Not A Number (NaN)
+document.writeln(parseInt(n)+"<br/>");
+
+document.writeln("<hr/>");
+
+document.writeln(123+"4");
+document.writeln(123-"4");
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="858e2dc5-d39e-421d-8200-f95a3a60f0b0" name="Default Changelist" comment="web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.markers.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.syncinfo.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.syncinfo.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.indexes/e4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/7even_test/org.eclipse.jdt.core/state.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/WebUI/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/WebUI/.markers.snap" afterDir="false" />
@@ -12,18 +18,43 @@
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/9.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/9.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1204801488.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/1257518927.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/1257518927.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/2173236848.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/2173236848.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/2631212179.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/2631212179.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/03_for연습.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/03_for연습.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/05_Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/05_Number.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/06_Array.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/06_Array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/08_Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/08_Date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/03_for연습.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/03_for연습.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/05_Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/05_Number.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/06_Array.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/06_Array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/08_Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/08_Date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2020-11-17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2020-11-17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/07_MapSet.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/07_MapSet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/08_Date연습.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/08_Date연습.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/09_RegExp.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/01_basic/09_RegExp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/1_event_called.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/1_event_called.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/2_event_handler.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/2_event_handler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/3_event_listener.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/3_event_listener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/4_event_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/4_event_cancel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/9_exercise_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/02_event_handler/9_exercise_event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/03_dom/0_참고.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/03_dom/0_참고.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/03_dom/1_get_element.html" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebUI/4_javascript_class/03_dom/1_get_element.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/07_MapSet.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/07_MapSet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/08_Date연습.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/08_Date연습.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/09_RegExp.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/01_basic/09_RegExp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/1_event_called.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/1_event_called.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/2_event_handler.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/2_event_handler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/3_event_listener.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/3_event_listener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/4_event_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/4_event_cancel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/9_exercise_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/02_event_handler/9_exercise_event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/03_dom/0_참고.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/03_dom/0_참고.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/03_dom/1_get_element.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/WebContent/4_javascript_class/03_dom/1_get_element.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +87,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/workspcae_10_12" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +95,27 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="07_MapSet.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webwork/WebUI/WebContent/4_javascript_class/01_basic/07_MapSet.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.07_MapSet.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +125,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605590839433</updated>
-      <workItem from="1605590840453" duration="1841000" />
+      <workItem from="1605590840453" duration="2627000" />
+      <workItem from="1605658433730" duration="3755000" />
     </task>
     <task id="LOCAL-00001" summary="web">
       <created>1605594198813</created>
@@ -82,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605594198814</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="web">
+      <created>1605606845909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605606845909</updated>
+    </task>
+    <task id="LOCAL-00003" summary="web">
+      <created>1605606928897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605606928897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,21 +160,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="web" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1605591203528">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1605658617643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605591203528" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605658617643" />
+    <state x="790" y="231" key="RollbackChangesDialog" timestamp="1605662583863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605662583863" />
     <state x="76" y="132" key="SettingsEditor" timestamp="1605591185291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="76" y="132" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605591185291" />
-    <state x="133" y="278" key="Vcs.Push.Dialog.v2" timestamp="1605594213991">
+    <state x="133" y="278" key="Vcs.Push.Dialog.v2" timestamp="1605606955016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="133" y="278" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605594213991" />
+    <state x="133" y="278" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605606955016" />
     <state x="342" y="452" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605591237466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="452" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605591237466" />
+    <state x="0" y="124" key="new project wizard" timestamp="1605689475127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="124" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605689475127" />
   </component>
 </project>

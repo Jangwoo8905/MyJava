@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>디버그.html</title>
+<script type="text/javascript">
+
+window.onload = function(){document.getElementById.addEventListener}
+
+
+</script>
+
+</head>
+<body>
+
+<input type ='button' value ='시작' id='btn'>
+<input type ='text' id='re'>
+
+</body>
+</html>

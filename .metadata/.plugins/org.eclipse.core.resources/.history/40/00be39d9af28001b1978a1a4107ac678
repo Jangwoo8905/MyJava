@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>03_for연습.html</title>
+
+<script type="text/javascript">
+var date=1;
+var d = new Date();
+var temp =0;
+var darr=[];
+
+var month = 11;
+//그달의 일수 구하기
+d.getMonth(month)+2;
+document.write(d);
+document.write("<hr/>");
+d.setDate(0);
+document.write(d);
+
+for(var i=0; i<d.getDate(0);i++){
+	darr.push(date++);
+}
+	
+document.write(darr);
+
+
+document.write("<table border='2'>");
+for(var j=0;j<5;j++){
+	document.write("<tr>");
+	for(var i =0;i<7 ;i++){
+		document.write("<td>"+1+"</td>");
+		temp++;
+	document.write("</tr>");
+}
+
+
+
+document.write("</table>")
+
+
+
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

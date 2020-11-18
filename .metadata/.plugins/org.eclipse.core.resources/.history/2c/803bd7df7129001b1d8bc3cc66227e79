@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!--
+1.table 구조 2행 2열
+	`border='1' 
+	`각 cell의 내용 
+		치킨	짬뽕
+		탕슉	콜라-->
+<script type="text/javascript">
+
+
+
+
+</script>
+</head>
+<body>
+
+<table border='1'>
+<tr>
+<td>치킨</td><td>짬뽕</td>
+</tr>
+<tr>
+<td>탕슉</td><td>콜라</td>
+</tr>
+
+</table>
+
+
+</body>
+</html>

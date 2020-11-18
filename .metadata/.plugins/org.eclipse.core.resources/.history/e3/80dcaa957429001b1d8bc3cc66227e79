@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!--
+1.table 구조 2행 2열
+	`border='1' 
+	`각 cell의 내용 
+		치킨	짬뽕
+		탕슉	콜라   
+	` td에 'menu'클래스명 부여		
+		-->
+
+<style type="text/css">
+.menu{
+width:100px;
+height:60px;
+background:aliceblue;
+text-align: center;
+cursor:pointer;
+}
+
+</style>
+
+<script type="text/javascript">
+window.onload = function(){
+	//var menu = document.getElementsByClassName('menu');
+	var menu = document.querySelectorAll('.menu');
+	for(var i=0; i<menu.length; i++){
+		menu[i].onclick=function(){
+			alert(this.innerHTML+" : "+this.getAttribute('price')+"원");
+		}
+	}
+
+}
+
+</script>
+
+</head>
+<body>
+
+<table border='1'>
+<tr>
+<td class='menu' price='21000'>치킨</td><td class='menu' price='7000'>짬뽕</td>
+</tr>
+<tr>
+<td class='menu' price='18000'>탕슉</td><td class='menu' price='1500'>콜라</td>
+</tr>
+
+</table>
+
+
+</body>
+</html>

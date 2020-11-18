@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 핸들러 연결 </title>
+<script type="text/javascript">
+function btn_click(){
+	alert('ok');
+}
+//자바 스크립트는 함수도 데이터 타입이다.
+
+</script>
+</head>
+
+<body>
+	<input type='button' value='눌려' onclick='btn_click()' />
+</body>
+</html>
